@@ -1,0 +1,27 @@
+{
+  "name": "buffer-swizzler",
+  "version": "0.1.0",
+  "description": "Change pixel ordering on JS Buffers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koopero/buffer-swizzler.git"
+  },
+  "keywords": [
+    "swizzle",
+    "pixels",
+    "buffer"
+  ],
+  "author": "Samm Cooper <samm@hfour.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koopero/buffer-swizzler/issues"
+  },
+  "homepage": "https://github.com/koopero/buffer-swizzler#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}
