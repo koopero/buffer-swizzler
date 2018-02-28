@@ -1,6 +1,6 @@
 {
   "name": "buffer-swizzler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Change pixel ordering on JS Buffers",
   "main": "index.js",
   "scripts": {
