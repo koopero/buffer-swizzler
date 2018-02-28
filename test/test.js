@@ -2,6 +2,12 @@ const Swizzler = require('../src/Swizzler')
 const assert = require('chai').assert
 
 describe('Swizzler', () => {
+  describe('module', () => {
+    it(`is an actual module`, () => {
+      const mod = require('../index')
+      assert.isFunction( mod )
+    })
+  })
   it(`doesn't smork`, () => {
     assert.isFunction( Swizzler )
     let swizzler = new Swizzler('A:A')
